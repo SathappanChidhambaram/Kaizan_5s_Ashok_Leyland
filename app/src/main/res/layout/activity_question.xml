@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question"
+    android:padding="7dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ttopic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:id="@+id/tqn"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:fontFamily="serif"
+                />
+
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <RadioButton
+                    android:id="@+id/rb0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/rb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"/>
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OFI:"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="serif-monospace"/>
+
+            <EditText
+                android:id="@+id/erem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box"
+                android:fontFamily="serif-monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="23sp"
+                android:padding="5dp"
+                android:hint="Opportunity for improvement"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/event_image"
+                    android:scaleType="fitXY"
+                    android:onClick="selectImage"/>
+
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:text="NEXT->"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_weight="2"
+                android:layout_marginRight="15dp"
+                />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

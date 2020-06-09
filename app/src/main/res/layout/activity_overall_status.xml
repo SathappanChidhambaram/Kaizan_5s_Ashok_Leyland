@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:layout_margin="7dp"
+    tools:context=".overall_status">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Year:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <Spinner
+            android:id="@+id/spinyears"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Month:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <Spinner
+            android:id="@+id/spinmonths"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/llstat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/e101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E101"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e101w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e101w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+
+            <TextView
+                android:id="@+id/e102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E102"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e102w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e102w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+
+            <TextView
+                android:id="@+id/e105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E105"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e105w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e105w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+
+            <TextView
+                android:id="@+id/e106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E106"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e106w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e106w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E109"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e109w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e109w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+
+            <TextView
+                android:id="@+id/e110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E110"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e110w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e110w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E111"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e111w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e111w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E117"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e117w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e117w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E119"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e119w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e119w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E128"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e128w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e128w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+
+            <TextView
+                android:id="@+id/e130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E130"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e130w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e130w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E135"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e135w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e135w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E136"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e136w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e136w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E137"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e137w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e137w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/e138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Gemba No: E138"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/e138w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 1: \n (1-7)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/e138w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Week 3: \n (15-21)"
+                    android:paddingTop="8dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="4dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

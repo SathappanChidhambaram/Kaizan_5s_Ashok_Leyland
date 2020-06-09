@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "113553843199",
+    "firebase_url": "https://audit5s-9246e.firebaseio.com",
+    "project_id": "audit5s-9246e",
+    "storage_bucket": "audit5s-9246e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113553843199:android:3630d690b3781268d87dca",
+        "android_client_info": {
+          "package_name": "com.example.kaizan5s"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113553843199-k3s1qres8js0dn58t8n1p2ls6cbpnt39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kaizan5s",
+            "certificate_hash": "4c9190f8e6786536ae9463ba2fee4f7209094bdd"
+          }
+        },
+        {
+          "client_id": "113553843199-i6se8s1j0m2pgv2iuf7kd30rptugsala.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kaizan5s",
+            "certificate_hash": "66a4b6ba2863f97445a9cb541a7b79f9860fde50"
+          }
+        },
+        {
+          "client_id": "113553843199-59kqbco18cph7g78eo0g0li84gk9t11u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUW8VmTmFSbM23DAjOpRei6h6AY6I9E30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113553843199-59kqbco18cph7g78eo0g0li84gk9t11u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

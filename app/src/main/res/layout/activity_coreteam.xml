@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".coreteam">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CORE TEAM"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                />
+
+            <LinearLayout
+                android:id="@+id/llpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Password:"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/cpass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/box"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:maxLength="20"
+                android:inputType="textPassword"
+                android:hint=" Enter your password "/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Action:"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinact"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llnew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Employee Name:"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/nname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/box"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:maxLines="1"
+                    android:maxLength="20"
+                    android:hint=" Enter Employee Name"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Password:"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/npass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/box"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:maxLines="1"
+                    android:maxLength="20"
+                    android:inputType="textPassword"
+                    android:hint=" Enter password "/>
+
+                <Button
+                    android:id="@+id/badd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:textColor="@android:color/white"
+                    android:text="ADD"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lldel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Employee:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/brem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:textColor="@android:color/white"
+                    android:text="REMOVE"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

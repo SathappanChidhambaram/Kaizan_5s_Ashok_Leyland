@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    tools:context=".confirmation">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="GEMBA NO:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvgembano"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="E101" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:paddingTop="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="AUDITEE:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvauditee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Karthick P" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:paddingTop="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="AUDITOR:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvauditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Muralidhar V S"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:paddingTop="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="DATE:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="20.02.2020" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:paddingTop="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TIME:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvtime"
+                    android:text="11.00 AM"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EVALUATION CRITERIA:"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="4 - Perfect"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="3 - 1 or 2 Deviations"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2 - 3 or 4 Deviations"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1 - 5 or 6 Deviations"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="No Score - More than 6 Deviations"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="15dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/circlebutton"
+                    android:text="gg"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/circlebutton"
+                    android:text=">"
+                    android:textColor="#fff"
+                    android:textSize="45dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
